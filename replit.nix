@@ -1,5 +1,6 @@
 { pkgs }: {
   deps = [
+    pkgs.mailutils
     pkgs.python38Full
   ];
   env = {
